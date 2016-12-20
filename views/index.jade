@@ -1,0 +1,30 @@
+extends layout
+
+block content
+        .swiper-container
+            .swiper-wrapper
+                .swiper-slide
+                    img(src='/images/1.jpeg')
+                .swiper-slide
+                    img(src='/images/2.jpeg')
+                .swiper-slide
+                    img(src='/images/3.jpeg')
+                .swiper-slide
+                    img(src='/images/4.jpeg')
+                .swiper-slide
+                    img(src='/images/5.jpeg')
+            // Add Pagination
+            .swiper-pagination
+        // Swiper JS
+        script(src='/javascripts/swiper-3.4.1.min.js')
+        // Initialize Swiper
+        script.
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                direction: 'vertical',
+                slidesPerView: 1,
+                paginationClickable: true,
+                spaceBetween: 30,
+                loop: true,
+                mousewheelControl: true
+            });
