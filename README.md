@@ -1,5 +1,7 @@
 ### swiper-demo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cikai/swiper-demo.svg)](https://greenkeeper.io/)
+
 Front-end: jade / js / css
 
 Back-end: nodejs
